@@ -31,7 +31,10 @@ h1 {
   font-size: 2em;
   margin: .67em 0
 }
-
+h2{
+  font-size: 1.6em;
+  margin: 0.67em 0;
+}
 hr {
   box-sizing: content-box;
   height: 0;
