@@ -456,7 +456,7 @@ header {
 .stream__right::before{
   content: 'carregando...';
   width: calc(100% - 20px);
-  height: 400px;
+  height: 50vh;
   background: #000;
   color: #fff;
   position: fixed;
