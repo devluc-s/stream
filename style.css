@@ -461,15 +461,18 @@ header {
   background: #000;
   color: #fff;
   position: fixed;
-  top: 0;
+  top: -50vh;
   right: 0;
   left: 0;
   z-index: 99;
-  display: none;
   text-align: center;
+  overflow: hidden;
+  transform: translateX(180deg);
+  transition: top .5s ease-in-out;
 }
+
 .stream__right:hover::before{
-  display: block;
+  top: 0;
 }
 .stream__right__play {
   padding: 10px;
