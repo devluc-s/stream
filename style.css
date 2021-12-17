@@ -425,18 +425,13 @@ header {
   margin-right: 0px;
 }
 
-.stream__play h4 {
-  font-size: 20px;
-  font-weight: 700;
-}
-
 .stream__info {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0;
+  font-weight: 700;
 }
-
 .stream__right button {
   padding: 11px;
   border-radius: 50%;
@@ -479,7 +474,13 @@ header {
   border: 1px solid #ddd;
   border-radius: 50%;
 }
-
+.stream__avaliation{
+  display: flex;
+  align-items: center;
+  color: #888;
+  gap: 3px;
+  font-weight: normal;
+}
 .stream__moveup {
   background: #12BEEF;
   color: #fff;
