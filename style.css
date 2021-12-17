@@ -444,14 +444,13 @@ header {
   width: 40px;
   height: 40px;
   background: #fff;
-  border: 1px solid #ddd;
+  box-shadow: 0px 0px 0px 1px #ddd;
+  transition: box-shadow .5s ease-in-out;
   cursor: pointer;
 }
 
 .stream__right:hover button {
   box-shadow: 0px 0px 0px 3px #12beef;
-  border-color: transparent;
-  transition: box-shadow .5s ease-in-out 0s;
 }
 
 .stream__right::before{
