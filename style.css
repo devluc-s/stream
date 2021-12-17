@@ -438,9 +438,8 @@ header {
 }
 
 .stream__right button {
-  padding: 10px;
+  padding: 11px;
   border-radius: 50%;
-  text-align: center;
   width: 40px;
   height: 40px;
   background: #fff;
