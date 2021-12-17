@@ -449,7 +449,7 @@ header {
 }
 
 .stream__right:hover button {
-  box-shadow: 0px 0px 10px 6px #12BEEF;
+  box-shadow: 0px 0px 0px 3px #12beef;
   border-color: transparent;
   transition: box-shadow .5s ease-in-out 0s;
 }
