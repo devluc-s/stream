@@ -443,8 +443,14 @@ header {
   cursor: pointer;
 }
 
+.stream__right:hover .pause{
+  display: block;
+}
+.pause, .stream__right:hover .play{
+  display: none;
+}
 .stream__right:hover button {
-  box-shadow: 0px 0px 0px 3px #12beef;
+  box-shadow: 0px 0px 0px 2px #12beef;
 }
 
 .stream__right::before{
