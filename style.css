@@ -449,8 +449,8 @@ header {
 }
 
 .stream__right:hover button {
-  border: 1px solid #12BEEF;
-  transition: .5s ease-in-out;
+  box-shadow: 0px 0px 10px 6px #12BEEF;
+  transition: box-shadow .5s ease-in-out 0s;
 }
 
 .stream__right::before{
