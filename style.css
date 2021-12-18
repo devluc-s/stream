@@ -202,7 +202,13 @@ img {
 body {
   font-family: 'Nunito', sans-serif;
   font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+  counter-reset: contador;
 }
+
+:focus {
+  outline: none;
+}
+
 
 ::-webkit-scrollbar {
   width: 15px;
