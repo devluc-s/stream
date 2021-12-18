@@ -487,18 +487,20 @@ header {
   gap: 3px;
   font-weight: normal;
 }
-.stream__moveup {
-  background: #12BEEF;
-  color: #fff;
-  padding: 9px;
+.stream__bottom{
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 40px;
-  height: 40px;
+  left: 0;
+  box-shadow: 0px 1px 6px #eee;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
   text-align: center;
-  border-radius: 10px 0px 0px;
+  color: #888;
 }
+
 
 /* footer */
 .stream__footer {
@@ -507,14 +509,14 @@ header {
 }
 
 /* media */
-
-@media (min-width: 767px){
-  .stream__toggle{
+@media (min-width: 767px) {
+  .stream__bottom, .stream__toggle {
     display: none;
   }
 }
-@media (max-width: 767px){
-  .stream__option, .stream__card a{
+
+@media (max-width: 767px) {
+  .stream__option, .stream__card a {
     display: none;
   }
 }
