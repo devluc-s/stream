@@ -487,13 +487,17 @@ header {
   gap: 3px;
   font-weight: normal;
 }
-.stream__bottom{
+.stream__bottom {
   position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
   box-shadow: 0px 1px 6px #eee;
   background: #fff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-around;
   padding: 20px 0;
@@ -501,16 +505,41 @@ header {
   color: #888;
 }
 
-.stream__select ul li{
-  display: inline-block;
+.stream__select p {
+  margin-bottom: 20px;
+  color: #888;
+}
+
+.stream__select ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stream__select ul li {
   margin-right: 10px;
   margin-bottom: 10px;
   color: #888;
-  border: 1px solid ;
+  border: 1px solid #ddd;
   padding: 10px 20px;
   border-radius: 10px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.stream__select ul li::before {
+  content: counter(contador) " ";
+  counter-increment: contador;
+  background: hsl(0deg 0% 97%);
+  border-radius: 20px;
+  padding: 4px 10px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 4px;
+  color: #888;
 }
 .stream__select ul li:hover{
   border-color: transparent;
