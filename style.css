@@ -418,6 +418,25 @@ header {
   transform: rotateY(180deg);
   transition: ease-in-out .8s;
 }
+.stream__movies__img{
+  position: relative;
+  cursor: pointer;
+}
+
+.stream__movies__img button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  padding: 13px;
+  transform: translate(-50%,-50%);
+  box-shadow: inset 0px 0px 3px #eee, 0px 3px 7px #333;
+  -webkit-box-shadow: inset 0px 0px 3px #eee, 0px 3px 7px #333;
+}
+
 .stream__progress{
   height: 10px;
   background: #ddd;
@@ -434,10 +453,6 @@ header {
   left: 0;
   top: 0;
   bottom: 0;
-}
-.stream__movies img{
-  filter: grayscale(100%) contrast(50%) brightness(1.5);
-  -webkit-filter: grayscale(100%) contrast(50%) brightness(1.5) ;
 }
 .stream__play {
   margin: 0 10px;
