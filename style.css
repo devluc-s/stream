@@ -418,7 +418,27 @@ header {
   transform: rotateY(180deg);
   transition: ease-in-out .8s;
 }
-
+.stream__progress{
+  height: 10px;
+  background: #ddd;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 8px;
+}
+.stream__progress::before{
+  content: '';
+  width: 30%;
+  background: #12BEEF;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.stream__movies img{
+  filter: grayscale(100%) contrast(50%) brightness(1.5);
+  -webkit-filter: grayscale(100%) contrast(50%) brightness(1.5) ;
+}
 .stream__play {
   margin: 0 10px;
 }
