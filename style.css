@@ -675,6 +675,9 @@ background: #fff;
   .stream__bottom, .stream__toggle {
     display: none;
   }
+  .stream__card {
+    min-height: 100vh;
+}
 }
 
 @media (max-width: 767px) {
