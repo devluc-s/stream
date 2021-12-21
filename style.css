@@ -544,6 +544,52 @@ header {
   padding: 20px 0;
   text-align: center;
   color: #888;
+  z-index: 3;
+}
+
+
+.stream__translatex__bottom{
+    background: #fff;
+    font-weight: 700;
+    position: fixed;
+    bottom: 0;
+    height: 0vh;
+    right: 0;
+    left: 0;
+    transform: translateX(180deg);
+    transition: height .5s ease-in-out;
+    box-shadow: 0px 1px 6px #eee;
+    color: #00000099;
+}
+
+.stream__favorite button:hover .stream__translatex__bottom, .stream__profile button:hover .stream__translatex__bottom, .stream__settings button:hover .stream__translatex__bottom{
+  height: 50vh;
+}
+.stream__list{
+  justify-content: space-between;
+  padding: 25px 15px;
+}
+.stream__list, .stream__list span:first-child{
+  display: flex;
+  align-items: center;
+}
+
+.stream__list select{
+  border-radius: 5px;
+  padding: 0 20px;
+  border: 1px solid #ddd;
+  color: #00000099;
+}
+.stream__avatar{
+  padding: 20px 0;
+}
+.stream__information label{
+  display: block;
+}
+.stream__information input{
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
 }
 
 .stream__select p {
