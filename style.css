@@ -603,6 +603,10 @@ header {
 .stream__box{
   padding-left: 20px;
 }
+.stream__box p {
+    padding-top: 20px;
+    font-weight: 400;
+}
 .stream__select p {
   margin-bottom: 20px;
   color: #888;
