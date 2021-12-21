@@ -103,7 +103,8 @@ button, input {
 }
 
 button, select {
-  text-transform: none
+  text-transform: none;
+  background: transparent;
 }
 
 [type=button], [type=reset], [type=submit], button {
