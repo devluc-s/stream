@@ -610,6 +610,10 @@ header {
   right: 0;
   color: orangered;
 }
+#mode:checked ~ .update{
+  background: #000;
+  color: #fff;
+}
 .stream__box p {
     padding-top: 20px;
     font-weight: 400;
