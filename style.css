@@ -651,7 +651,7 @@ background: #fff;
   color: orangered;
 }
 #mode:checked ~ .update{
-  background: #000;
+  background: #141414;
   color: #fff;
 }
 .stream__box p {
