@@ -369,7 +369,25 @@ background: #fff;
     -moz-transition: min-height 500ms ease-in-out;
     transition: min-height 500ms ease-in-out;
 }
-
+.stream__card__img:before {
+    content: '';
+    background: -webkit-linear-gradient( 
+-77deg,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 85%);
+    background: -moz- oldlinear-gradient(13deg,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 85%);
+    background: -o-linear-gradient(13deg,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 85%);
+    background: linear-gradient( 
+-77deg,rgb(0 0 0 / 96%) 0,rgb(0 0 0 / 0%) 85%);
+    position: absolute;
+    top: 0;
+    left: -26.09%;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    transition: opacity .5s;
+}
 .stream__card__img {
   position: relative;
 }
