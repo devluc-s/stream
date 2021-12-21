@@ -355,6 +355,7 @@ background: #fff;
 
 .stream__card {
   min-width: 100%;
+  min-height: 50vh;
 }
 
 .stream__card__img {
