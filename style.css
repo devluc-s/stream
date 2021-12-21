@@ -254,12 +254,12 @@ color: #fff;
 }
 
 .stream__menubar {
-  background: rgb(51, 51, 51);
-  height: 2px;
-  width: 25px;
-  margin: 6px 0;
-  transition: .5s ease-in-out;
-  border-radius: 10px;
+background: #fff;
+    height: 2px;
+    width: 25px;
+    margin: 6px 0;
+    transition: .5s ease-in-out;
+    border-radius: 10px;
 }
 .stream__option ul li{
   display: inline-block;
@@ -311,14 +311,13 @@ color: #fff;
   display: none;
 }
 .stream__close {
-  position: absolute;
-  right: -50px;
-  cursor: pointer;
-  background: #fff;
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    right: -50px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .stream__mob ul li a {
