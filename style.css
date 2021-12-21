@@ -443,7 +443,19 @@ background: #fff;
   position: relative;
   cursor: pointer;
 }
-
+.stream__movies__img::before{
+  content: '';
+  background: -webkit-gradient(linear,left bottom,left top,from(#000),color-stop(50%,transparent));
+  background: -webkit-linear-gradient(bottom,#000,transparent 50%);
+  background: -moz- oldlinear-gradient(bottom,#181818,transparent 50%);
+  background: -o-linear-gradient(bottom,#181818,transparent 50%);
+  background: linear-gradient(to top,#000,transparent 50%);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 5px;
+}
 .stream__movies__img button{
   position: absolute;
   top: 50%;
