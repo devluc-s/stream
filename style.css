@@ -233,7 +233,7 @@ body {
 
 /* menu */
 
-header {
+.stream__header {
   padding: 20px 0;
   position: fixed;
   width: 100%;
