@@ -602,6 +602,13 @@ header {
 
 .stream__box{
   padding-left: 20px;
+  position: relative;
+}
+.stream__box::before{
+  content: '✖ remover';
+  position: absolute;
+  right: 0;
+  color: orangered;
 }
 .stream__box p {
     padding-top: 20px;
