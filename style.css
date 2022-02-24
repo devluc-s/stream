@@ -201,10 +201,11 @@ img {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
-  font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
-  counter-reset: contador;
-  color: #555;
+     font-family: 'Nunito', sans-serif;
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+    counter-reset: contador;
+    color: #fff;
+    background: #041419;
 }
 
 :focus {
@@ -358,31 +359,30 @@ background: #fff;
   display: flex;
   overflow: hidden;
   scroll-behavior: smooth;
-  scroll-snap-type: mandatory;
+  scroll-snap-type: x mandatory;
 }
 
 .stream__card {
   min-width: 100%;
   min-height: 50vh;
+  scroll-snap-align: start;
      -webkit-transition: min-height 500ms ease-in-out;
     -o-transition: min-height 500ms ease-in-out;
     -moz-transition: min-height 500ms ease-in-out;
     transition: min-height 500ms ease-in-out;
 }
 .stream__card__img:before {
-    content: '';
-    background: -webkit-linear-gradient( 
--77deg,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 85%);
-    background: -moz- oldlinear-gradient(13deg,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 85%);
+       content: '';
+    background: linear-gradient( 0deg,#041419 0,rgb(0 0 0 / 0%) 100%);
+    background: linear-gradient( 0deg,#041419 0,rgb(0 0 0 / 0%) 100%);
     background: -o-linear-gradient(13deg,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 85%);
-    background: linear-gradient( 
--77deg,rgb(0 0 0 / 96%) 0,rgb(0 0 0 / 0%) 85%);
+    background: linear-gradient( 0deg,#041419 0,rgb(0 0 0 / 0%) 100%);
     position: absolute;
     top: 0;
-    left: -26.09%;
+    left: 0;
     right: 0;
     bottom: 0;
-    opacity: 1;
+    /* opacity: 1; */
     -webkit-transition: opacity .5s;
     -o-transition: opacity .5s;
     -moz-transition: opacity .5s;
@@ -589,7 +589,7 @@ background: #fff;
   bottom: 0;
   right: 0;
   left: 0;
-  background: #fff;
+  background: #041419;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
