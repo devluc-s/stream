@@ -503,16 +503,8 @@ background: #fff;
   top: 0;
   bottom: 0;
 }
-.stream__play {
+.stream__play:not(li:first-child){
   margin: 0 10px;
-}
-
-.stream__play:first-child {
-  margin-left: 0px;
-}
-
-.stream__play:last-child {
-  margin-right: 0px;
 }
 
 .stream__info {
