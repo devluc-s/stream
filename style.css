@@ -360,8 +360,6 @@ body {
 
 /* main */
 .stream__banner h2 {
-  font-size: 25px;
-  margin: 10px 0;
   font-weight: 700;
 }
 
@@ -424,6 +422,7 @@ body {
   align-items: center;
   margin: 0 auto;
   background: #eeeeee45;
+  cursor: pointer;
 }
 .stream__banner {
   position: relative;
