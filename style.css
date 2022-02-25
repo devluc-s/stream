@@ -409,11 +409,15 @@ body {
   right: 0;
   left: 0;
   text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .stream__slide__play button {
   padding: 10px 20px;
-  color: #e3e3e3;
+  color: #fff;
   box-shadow: 0px 0px 0px 1px currentColor;
   -webkit-box-shadow: 0px 0px 0px 1px currentColor;
   border-radius: 40px;
@@ -429,9 +433,11 @@ body {
   transition: background-color .5s ease-in-out;
 
 }
-.stream__slide__play button:hover{
+
+.stream__slide__play button:hover {
   background-color: #12BEEF;
 }
+
 .stream__banner {
   position: relative;
 }
@@ -612,107 +618,6 @@ body {
   color: #888;
   gap: 3px;
   font-weight: normal;
-}
-
-.stream__bottom {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: #041419;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: space-around;
-  padding: 20px 0;
-  text-align: center;
-  color: #888;
-  z-index: 3;
-}
-
-
-.stream__translatex__bottom {
-  background: #fff;
-  font-weight: 700;
-  position: fixed;
-  bottom: 0;
-  height: 0vh;
-  right: 0;
-  left: 0;
-  transform: translateX(180deg);
-  -webkit-transition: height .5s ease-in-out;
-  -o-transition: height .5s ease-in-out;
-  -moz-transition: height .5s ease-in-out;
-  transition: height .5s ease-in-out;
-  box-shadow: 0px 1px 6px #eee;
-  color: #00000099;
-}
-
-.stream__favorite button:hover .stream__translatex__bottom, .stream__profile button:hover .stream__translatex__bottom, .stream__settings button:hover .stream__translatex__bottom {
-  height: 50vh;
-}
-
-.stream__list {
-  justify-content: space-between;
-  padding: 25px 15px;
-}
-
-.stream__list, .stream__list span:first-child {
-  display: flex;
-  align-items: center;
-}
-
-.stream__list select {
-  border-radius: 5px;
-  padding: 0 20px;
-  border: 1px solid #ddd;
-  color: #00000099;
-}
-
-.stream__avatar {
-  padding: 20px 0;
-}
-
-.stream__information label {
-  display: block;
-}
-
-.stream__information input {
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 10px;
-}
-
-.stream__save ul li {
-  display: flex;
-  padding: 20px;
-  align-items: center;
-  border-bottom: 1px solid #eee;
-  text-align: left;
-}
-
-.stream__box {
-  padding-left: 20px;
-  position: relative;
-}
-
-.stream__box::before {
-  content: '✖ remover';
-  position: absolute;
-  right: 0;
-  color: orangered;
-}
-
-#mode:checked~.update {
-  background: #141414;
-  color: #fff;
-}
-
-.stream__box p {
-  padding-top: 20px;
-  font-weight: 400;
 }
 
 .stream__select p {
