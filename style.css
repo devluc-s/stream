@@ -461,11 +461,11 @@ background: #fff;
 }
 .stream__movies__img::before{
   content: '';
-  background: -webkit-gradient(linear,left bottom,left top,from(#000),color-stop(50%,transparent));
-  background: -webkit-linear-gradient(bottom,#000,transparent 50%);
-  background: -moz- oldlinear-gradient(bottom,#181818,transparent 50%);
-  background: -o-linear-gradient(bottom,#181818,transparent 50%);
-  background: linear-gradient(to top,#000,transparent 50%);
+  background: -webkit-gradient( 0deg,#041419 0,rgb(0 0 0 / 0%) 100%);
+  background: -webkit-linear-gradient( 0deg,#041419 0,rgb(0 0 0 / 0%) 100%);
+  background: -moz- oldlinear-gradient( 0deg,#041419 0,rgb(0 0 0 / 0%) 100%);
+  background: -o-linear-gradient( 0deg,#041419 0,rgb(0 0 0 / 0%) 100%);
+  background: linear-gradient( 0deg,#041419 0,rgb(0 0 0 / 0%) 100%);
   position: absolute;
   right: 0;
   left: 0;
