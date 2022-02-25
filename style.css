@@ -437,13 +437,12 @@ body {
 }
 
 .stream__buttons a {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   background: #fff;
   border-radius: 40px;
   display: inline-block;
   margin: 0 5px;
-  border: 1px solid #ddd;
 }
 
 .stream__videos ul {
