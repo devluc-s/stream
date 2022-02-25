@@ -506,7 +506,9 @@ background: #fff;
 .stream__play:not(li:first-child){
   margin: 0 10px;
 }
-
+.stream__play:first-child{
+  margin-right: 10px;
+}
 .stream__info {
   display: flex;
   align-items: center;
