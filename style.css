@@ -714,14 +714,6 @@ body {
   color: #888;
 }
 
-.stream__select ul {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .stream__select ul li {
   margin-right: 10px;
@@ -730,6 +722,7 @@ body {
   border-radius: 10px;
   font-weight: 700;
   cursor: pointer;
+  display: inline-block;
   box-shadow: 0px 0px 0px 1px currentColor;
   -webkit-box-shadow: 0px 0px 0px 1px currentColor;
   -moz-box-shadow: 0px 0px 0px 1px currentColor;
