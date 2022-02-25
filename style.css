@@ -547,23 +547,26 @@ background: #fff;
 }
 
 .stream__right::before{
-  content: 'carregando...';
-  height: 50vh;
-  line-height: 50vh;
-  background: #000;
-  color: #fff;
-  position: fixed;
-  top: -50vh;
-  right: 0;
-  left: 0;
-  z-index: 99;
-  text-align: center;
-  overflow: hidden;
-  transform: translateX(180deg);
-      -webkit-transition:  top .5s ease-in-out;
-    -o-transition:  top .5s ease-in-out;
-    -moz-transition:  top .5s ease-in-out;
-    transition:  top .5s ease-in-out;
+     content: 'carregando...';
+    height: 50vh;
+    line-height: 50vh;
+    background: #041419;
+    color: #fff;
+    position: fixed;
+    top: -50vh;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px 0px #0d2730;
+      -webkit-box-shadow: 0px 5px 10px 0px #0d2730;
+    -moz-box-shadow: 0px 5px 10px 0px #0d2730;
+    transform: translateX(180deg);
+    -webkit-transition: top .5s ease-in-out;
+    -o-transition: top .5s ease-in-out;
+    -moz-transition: top .5s ease-in-out;
+    transition: top .5s ease-in-out;
 }
 
 .stream__right:hover::before{
