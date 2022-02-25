@@ -292,7 +292,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 10px;
-  background-color: #fff;
+  background-color: #041216;
   -webkit-transition: left 500ms ease;
   -o-transition: left 500ms ease;
   -moz-transition: left 500ms ease;
@@ -305,19 +305,17 @@ body {
 }
 
 #toggle:checked~.stream__mob .stream__close {
-  background: #fff;
+  background: #041216;
 }
 
 #toggle:checked~.stream__mob .stream__menubar:first-child {
   transform: rotate(140deg);
   position: relative;
   top: 8px;
-  background: #000;
 }
 
 #toggle:checked~.stream__mob .stream__menubar:last-child {
   transform: rotate(-140deg);
-  background: #000;
 }
 
 #toggle:checked~.stream__mob .stream__menubar:nth-child(even) {
@@ -339,6 +337,7 @@ body {
   margin-bottom: 20px;
   display: block;
   text-transform: uppercase;
+  color: currentColor;
 }
 
 .stream__mob a:hover {
