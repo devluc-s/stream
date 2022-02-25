@@ -361,7 +361,8 @@ body {
 /* main */
 .stream__banner h2 {
   font-size: 25px;
-  margin: 30px 0;
+  margin: 10px 0;
+  font-weight: 700;
 }
 
 .stream__slide {
@@ -374,6 +375,7 @@ body {
 .stream__card {
   min-width: 100%;
   min-height: 50vh;
+  position: relative;
   scroll-snap-align: start;
   -webkit-transition: min-height 500ms ease-in-out;
   -o-transition: min-height 500ms ease-in-out;
@@ -402,28 +404,27 @@ body {
   position: relative;
 }
 
-.stream__card a {
+.stream__description {
+  color: #fff;
   position: absolute;
-  bottom: 0;
+  bottom: 60px;
   right: 0;
-  z-index: 10;
-  margin: 0 30px 30px 0;
-  padding: 12px;
-  color: #e3e3e3;
+  left: 0;
+  text-align: center;
+}
+
+.stream__slide__play button {
+  padding: 10px 20px;
+  color: #ffffff;
   box-shadow: 0px 0px 0px 1px currentColor;
   -webkit-box-shadow: 0px 0px 0px 1px currentColor;
-  width: 190px;
   border-radius: 40px;
   font-weight: 700;
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin: 0 auto;
+  background: #eeeeee45;
 }
-
-.stream__card svg {
-  margin-right: 10px;
-}
-
 .stream__banner {
   position: relative;
 }
@@ -758,7 +759,7 @@ body {
 }
 
 @media (max-width: 767px) {
-  .stream__option, .stream__card a {
+  .stream__option, .stream__slide__play span {
     display: none;
   }
 }
