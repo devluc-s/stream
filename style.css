@@ -413,7 +413,7 @@ body {
 
 .stream__slide__play button {
   padding: 10px 20px;
-  color: #ffffff;
+  color: #e3e3e3;
   box-shadow: 0px 0px 0px 1px currentColor;
   -webkit-box-shadow: 0px 0px 0px 1px currentColor;
   border-radius: 40px;
@@ -423,6 +423,14 @@ body {
   margin: 0 auto;
   background: #eeeeee45;
   cursor: pointer;
+  -webkit-transition: background-color .5s ease-in-out;
+  -o-transition: background-color .5s ease-in-out;
+  -moz-transition: background-color .5s ease-in-out;
+  transition: background-color .5s ease-in-out;
+
+}
+.stream__slide__play button:hover{
+  background-color: #12BEEF;
 }
 .stream__banner {
   position: relative;
@@ -451,7 +459,7 @@ body {
   overflow-x: scroll;
 }
 
-.stream__videos ul::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 
