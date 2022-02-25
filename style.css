@@ -740,12 +740,8 @@ body {
 }
 
 .stream__select ul li::before {
-  content: counter(contador) " -";
+  content: counter(contador) " - ";
   counter-increment: contador;
-  border-radius: 20px;
-  display: inline-block;
-  text-align: center;
-  margin-right: 4px;
 }
 
 .stream__select ul li:hover {
