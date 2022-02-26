@@ -365,7 +365,7 @@ body {
 
 .stream__slide {
   display: flex;
-  overflow: hidden;
+  overflow-x: auto;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
 }
@@ -396,10 +396,6 @@ body {
   background: linear-gradient(0deg, #041419 0, rgb(0 0 0 / 0%) 100%);
   background: -o-linear-gradient(13deg, rgba(0, 0, 0, .6) 0, rgba(0, 0, 0, 0) 85%);
   background: linear-gradient(0deg, #041419 0, rgb(0 0 0 / 0%) 100%);
-}
-
-.stream__card__img {
-  position: relative;
 }
 
 .stream__description {
